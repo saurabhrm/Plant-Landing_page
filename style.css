@@ -1,0 +1,108 @@
+:root{
+    --primary:#466d50;
+    --secondary:#000000;
+    --third:#adacb0;
+    --fourth:#ffffff;
+    --four: #2c4432;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Allerta';
+}
+
+
+#navbarMonstera{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+    align-items: center;
+
+}
+
+#navFirst img{
+    height: 35px;
+}
+
+#navMid{
+    display: flex;
+    font-size: 20px;
+}
+
+#navMid div{
+    margin: 0 30px;
+}
+#navMid div h4{
+    font-weight: 100;
+}
+
+#navMid div :hover{
+    cursor: pointer;
+    border-bottom: 2px solid var(--secondary);
+    font-weight: bold;
+}
+
+
+#navEnd{
+    display: flex;
+    
+}
+
+#navEnd div{
+    margin: 0 20px;
+}
+
+#midWhole{
+    display: flex;
+}
+
+#midWholePart11{
+    margin: 155px 44px 27px 48px;
+}
+
+#monstera{
+    font-size: 110px;
+    color: var(--secondary);
+}
+
+#midWholePart11 div ul li{
+    
+    font-size: 20px;
+}
+
+#midWholePart121 div h1:hover{
+    cursor: pointer;
+    background-color: var(--four);
+}
+
+#midWholePart121 div h1{
+    background-color: var(--primary);
+    color: var(--fourth);
+    font-weight: 100;
+    display: inline;
+    margin-left: 50px;
+    padding: 10px 25px;
+    font-size: 22px;
+    border-radius: 22px;
+}
+
+#midWholePart13{
+    margin-top: 194px;
+    margin-left: 42px;
+    display: inline-flex;
+}
+
+.midWholePart13Parts{
+    display: flex;
+    
+}
+
+.text{
+    font-size: 14px;
+}
